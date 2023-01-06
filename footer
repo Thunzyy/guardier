@@ -1,0 +1,16 @@
+    <footer class="foot bg-secondary">
+        <div class="d-flex justify-content-center py-5">
+            <button aria-label="linkedin" type="button"
+                class="btn btn-primary btn-lg btn-floating mx-2 bg-dark border border-secondary">
+                <a aria-label="linkedin" class="fab fa-linkedin text-light"
+                    href="https://www.linkedin.com/in/lucas-poignard-716747252/" target="_blank"></a>
+            </button>
+        </div>
+
+        <div class="text-center text-white-footer p-3">
+            © 2022 Copyright:
+            <a class="text-white-footer text-light" href="https://www.linkedin.com/in/lucas-poignard-716747252/"
+                target="_blank">Lucas
+                Poignard</a>
+        </div>
+    </footer>
