@@ -1,1 +1,33 @@
-navbar bootstrap
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Accueil">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lien_page">1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lien_page">2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lien_page">3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lien_page">4</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        CONTACT
+                    </button>
+                </ul>
+            </div>
+        </div>
+    </nav>
